@@ -1,0 +1,34 @@
+{
+    "name": "itomakiweb/util",
+    "description": "php utility classes",
+    "homepage": "https://github.com/itomakiweb/phpUtil",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "itomakiweb",
+            "homepage": "https://github.com/itomakiweb"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "fabpot/php-cs-fixer": "^1.11"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Itomakiweb\\Util\\": "src"
+        }
+    },
+    "extra": {
+    },
+    "scripts": {
+        "test": "phpunit test",
+        "format": "php-cs-fixer fix ."
+    }
+}
