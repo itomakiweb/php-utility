@@ -4,7 +4,7 @@
  * @license https://github.com/itomakiweb/php-utility/blob/master/LICENSE
  */
 
-namespace Itomakiweb\Util;
+namespace Itomakiweb\Utility;
 
 class ValueLimiter
 {

@@ -4,10 +4,10 @@
  * @license https://github.com/itomakiweb/php-utility/blob/master/LICENSE
  */
 
-namespace Itomakiweb\Test\Util;
+namespace Itomakiweb\Test\Utility;
 
 use PHPUnit_Framework_TestCase;
-use Itomakiweb\Util\ValueLimiter;
+use Itomakiweb\Utility\ValueLimiter;
 
 class ValueLimiterTest extends PHPUnit_Framework_TestCase
 {
