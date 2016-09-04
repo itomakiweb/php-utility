@@ -1,5 +1,5 @@
 {
-    "name": "itomakiweb/util",
+    "name": "itomakiweb/php-utility",
     "description": "php utility classes",
     "homepage": "https://github.com/itomakiweb/php-utility",
     "type": "library",
@@ -18,17 +18,20 @@
         "phpunit/phpunit": "^5.2",
         "friendsofphp/php-cs-fixer": "^1.11"
     },
-    "suggest": {
-    },
     "autoload": {
         "psr-4": {
             "Itomakiweb\\Util\\": "src"
         }
     },
-    "extra": {
-    },
     "scripts": {
-        "test": "phpunit test",
-        "format": "php-cs-fixer fix ."
+        "lint": [
+          "@composer lint:fix -- --verbose --dry-run --diff"
+        ],
+        "lint:fix": [
+          "php-cs-fixer fix ."
+        ],
+        "test": [
+          "phpunit test"
+        ]
     }
 }
