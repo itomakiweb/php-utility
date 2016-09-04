@@ -1,3 +1,3 @@
-# phpUtil
+# php-utility
 
 php utility classes

@@ -1,7 +1,7 @@
 {
     "name": "itomakiweb/util",
     "description": "php utility classes",
-    "homepage": "https://github.com/itomakiweb/phpUtil",
+    "homepage": "https://github.com/itomakiweb/php-utility",
     "type": "library",
     "license": "MIT",
     "authors": [

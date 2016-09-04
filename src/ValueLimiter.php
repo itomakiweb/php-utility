@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @license https://github.com/itomakiweb/phpUtil/blob/master/LICENSE
+ * @license https://github.com/itomakiweb/php-utility/blob/master/LICENSE
  */
 
 namespace Itomakiweb\Util;
