@@ -21,7 +21,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
      */
     public function testGetIfValid(
         $rawValue,
-        $default = null,
+        $default,
         callable $validFunc = null,
         $expected
     ) {
@@ -158,7 +158,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
      */
     public function testGetIfScalar(
         $rawValue,
-        $default = null,
+        $default,
         $expected
     ) {
         $actual = $this->valueLimiter->getIfScalar(
@@ -228,7 +228,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
      */
     public function testGetIfArray(
         $rawValue,
-        $default = null,
+        $default,
         $expected
     ) {
         $actual = $this->valueLimiter->getIfArray(
@@ -299,7 +299,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
     public function testGetValueIfValid(
         $rawRow,
         $key,
-        $default = null,
+        $default,
         callable $validFunc = null,
         $expected
     ) {
@@ -403,7 +403,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
     public function testGetValueIfScalar(
         $rawRow,
         $key,
-        $default = [],
+        $default,
         $expected
     ) {
         $actual = $this->valueLimiter->getValueIfScalar(
@@ -435,7 +435,7 @@ class ValueLimiterTest extends PHPUnit_Framework_TestCase
     public function testGetValueIfArray(
         $rawRow,
         $key,
-        $default = [],
+        $default,
         $expected
     ) {
         $actual = $this->valueLimiter->getValueIfArray(
